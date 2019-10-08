@@ -26,6 +26,11 @@ convenient to be able to easily adapt colors between them. Additionally, The
 GTK+ color chooser does not allow entering CMYK or CMY colors, only RGB & HSV.
 Thus, this 'suite' was born.
 
+### Building
+```bash
+make
+```
+
 ### Usage
 ```bash
 $ ./rgb2cmyk <r> <g> <b>
