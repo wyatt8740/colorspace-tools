@@ -31,33 +31,33 @@ Thus, this 'suite' was born.
 $ ./rgb2cmyk <r> <g> <b>
 ```
 Examples:
-```bash
+```
 $ ./rgb2cmyk 242 0 0
 C: 0%
 M: 100%
 Y: 100%
 K: 5%
 ```
-```bash
+```
 $ ./rgb2cmy 242 0 0
 C: 5%
 M: 100%
 Y: 100%
 ```
-```bash
+```
 $ ./cmy2rgb 5 100 100
 R: 242
 G: 0
 B: 0
 ```
-```bash
+```
 $ ./cmyk2rgb 0 100 100 5
 R: 242
 G: 0
 B: 0
 ```
 Interactive:
-```bash
+```
 $ ./cmyk2rgb
 Please enter a percentage for C, range 0 to 100: 0
 Please enter a percentage for M, range 0 to 100: 100
